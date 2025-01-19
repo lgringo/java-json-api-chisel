@@ -1,0 +1,54 @@
+<site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd">
+
+    <bannerLeft>
+        <image src="./images/gyfz-banner-75.jpg"/>
+    </bannerLeft>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>2.0.1</version>
+    </skin>
+
+    <edit>${project.scm.url}</edit>
+
+    <custom>
+        <fluidoSkin>
+            <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+            <gitHub>
+                <projectId>lgringo/java-json-api-chisel</projectId>
+                <ribbonOrientation>right</ribbonOrientation>
+                <ribbonColor>black</ribbonColor>
+            </gitHub>
+
+            <topBarEnabled>true</topBarEnabled>
+            <sideBarEnabled>false</sideBarEnabled>
+
+            <topBarIcon>
+                <name>java-json-api-chisel</name>
+                <alt>java-json-api-chisel logo</alt>
+                <src>./images/json-api-chisel-logo.webp</src>
+                <href>./index.html</href>
+            </topBarIcon>
+        </fluidoSkin>
+    </custom>
+
+    <publishDate position="right"/>
+    <version position="right"/>
+
+    <poweredBy>
+        <logo name="Maven" href="https://maven.apache.org/">
+            <image src="https://maven.apache.org/images/logos/maven-feather.png"/>
+        </logo>
+    </poweredBy>
+
+    <body>
+        <menu name="Overview">
+            <item name="Foo" href="foo.html"/>
+            <item name="FAQ" href="faq.html"/>
+        </menu>
+        <menu ref="reports"/>
+        <menu ref="modules"/>
+    </body>
+</site>

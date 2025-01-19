@@ -1,0 +1,55 @@
+= Overview
+ifndef::imagesdir[:imagesdir: ../resources]
+
+Java Json Api Chisel est une bibliothèque Java qui implémente la norme https://jsonapi.org/[JSON:API] pour simplifier la gestion des API RESTful. Inspiré du projet *Crnk*, qui n'est plus maintenu, Java Json Api Chisel vise à fournir une solution moderne et efficace pour la sérialisation et la désérialisation des données conformes à JSON:API.
+
+== 📌 Fonctionnalités
+
+- 📜 Implémentation complète de la norme https://jsonapi.org/[JSON:API]
+- 🔄 Sérialisation et désérialisation automatiques
+- ⚡ Performances optimisées
+- 🔗 Gestion des relations et des liens entre ressources
+- ✅ Compatible avec les principaux frameworks Java (Spring, Jakarta EE...)
+
+== 📖 Documentation
+
+La documentation complète du projet est disponible ici : <<docs/index.adoc#,Documentation>>.
+
+== 📂 Code source
+
+Le code source du projet est disponible sur GitHub : https://github.com/lgringo/java-json-api-chisel[Java Json Api Chisel].
+
+== 📝 Licence
+
+Ce projet est distribué sous la licence Apache License, Version 2. Consultez le fichier de licence ici : https://github.com/lgringo/java-json-api-chisel/blob/main/LICENSE[LICENSE].
+
+== 🚀 Installation
+
+Ajoutez la dépendance Maven à votre projet :
+
+[source,xml,subs=attributes+]
+----
+<dependency>
+    <groupId>com.example</groupId>
+    <artifactId>java-json-api-chisel</artifactId>
+    <version>{adoc-project-version}</version>
+</dependency>
+----
+
+{adoc-project-version}
+
+== 🤝 Contribuer
+
+Projet personnel privé pour le moment, les contributions seront ouvertes quand le projet aura assez de maturité.
+
+//Les contributions sont les bienvenues ! Veuillez consulter notre guide de contribution dans la documentation pour en savoir plus.
+
+---
+== 🚀 Image
+
+image::asciidoc/java-json-api-chisel.webp[]
+
+
+---
+
+**Auteur** : https://github.com/lgringo[Grégory Fernandez]

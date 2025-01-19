@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>eu.gyfz</groupId>
+        <artifactId>java-json-api-chisel-parent</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>java-json-api-chisel-jackson</artifactId>
+
+    <url>https://java-json-api-chisel.gyfz.eu/${module-short-name}/</url>
+
+    <properties>
+        <module-short-name>jackson</module-short-name>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>eu.gyfz</groupId>
+            <artifactId>java-json-api-chisel-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <site>
+            <id>gyfz</id>
+            <url>https://gyfz.eu/java-json-api-chisel/${module-short-name}/</url>
+        </site>
+    </distributionManagement>
+
+</project>
